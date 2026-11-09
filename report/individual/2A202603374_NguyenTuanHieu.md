@@ -20,7 +20,7 @@ Mục tiêu: ghi ít nhất 5 vấn đề từ trải nghiệm thật, mỗi v�
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Lặp lại; Tốn thời gian | Khi đi bộ trong Vinhomes Ocean Park, tôi muốn xác định đúng hướng và lối đi đến nơi cần đến, để tránh đi nhầm và mất thời gian. | Bản thân khi đi bộ | Ước lượng: xem bản đồ 1–2 phút, chọn hướng 1 phút, mất 30 giây để nhận ra nhầm, tìm lại đường 1–2 phút, quay lại đi đúng đường mất thêm khoảng 30 phút. Đi nhầm 3–4 lần/ngày theo tự thuật; riêng phần quay lại tương ứng khoảng 90–120 phút/ngày. |
+| 1 | Lặp lại; Tốn thời gian | Khi đi bộ trong Vinhomes Ocean Park, tôi muốn xác định đúng hướng và lối đi đến nơi cần đến, để tránh đi nhầm và mất thời gian. | Bản thân khi đi bộ | Ước lượng: xem bản đồ 1–2 phút, chọn hướng 1 phút, mất 25 phút để nhận ra nhầm, tìm lại đường 1–2 phút, quay lại đi đúng đường mất thêm khoảng 30 phút. Đi nhầm 3–4 lần/ngày theo tự thuật; riêng phần quay lại tương ứng khoảng 90–120 phút/ngày. |
 | 2 | Tốn thời gian | Khi làm cả lab trên lớp và lab mini trong cùng ngày, tôi muốn phân chia công việc và thời gian cho từng bài, để tránh dồn việc vào sát hạn. | Bản thân khi làm bài lab | Ngày 06/11, tôi mất khoảng 5 giờ hoàn thành lab trên lớp và 4 giờ hoàn thành lab mini, tổng khoảng 9 giờ theo trí nhớ. Đây là một ngày đã xảy ra, không phải tần suất hằng ngày; số giờ làm bài không đồng nghĩa toàn bộ là lãng phí hoặc thời gian lập kế hoạch. |
 | 3 | Cần đọc, tổng hợp nhiều thông tin; Tốn thời gian | Khi có nhiều vị trí nộp bài trên hệ thống học tập của chương trình VinUni, tôi muốn xác định đúng nơi nộp cho từng bài, để tránh nộp nhầm và mất thời gian xử lý lại. | Bản thân khi nộp bài | Một lượt nộp nhầm và xử lý lại được ước lượng: tìm nơi nộp 20 phút → gửi 5 phút → phát hiện nhầm 25 phút → xử lý lại 10 phút; tổng 60 phút. Chưa có ngày/tổng số lần. Đây không phải bằng chứng hệ thống lỗi kỹ thuật. |
 | 4 | Cần đọc, tổng hợp nhiều thông tin; Tốn thời gian | Khi đề lab có nhiều hướng dẫn về làm nhóm, quản lý bài làm và nộp kết quả, tôi muốn nắm đủ yêu cầu và thứ tự các bước phải thực hiện, để hoàn thành đúng quy trình mà không bỏ sót việc. | Bản thân khi đọc và thực hiện yêu cầu bài lab | Ước lượng từng bước: đọc hướng dẫn 15 phút, xác định phần cá nhân 10 phút, commit/đưa lên main 10 phút, nộp link LMS 10 phút; tổng 45 phút. Dùng tổng từ các bước đã nhớ thay cho ước lượng tổng ban đầu khoảng 60 phút. Không cộng với #3 khi chưa rõ có trùng sự việc không. |
@@ -66,7 +66,7 @@ Thứ tự ưu tiên cá nhân tôi chọn là Card #1 → Card #3 → Card #2. 
 | Job Story | Khi đi bộ trong Vinhomes Ocean Park, tôi muốn xác định đúng hướng và lối đi đến nơi cần đến, để tránh đi nhầm và mất thời gian. |
 | Actor | Bản thân khi đi bộ trong khu vực. |
 | Thời điểm / bối cảnh | Đi bộ hằng ngày trong Vinhomes Ocean Park, có xem bản đồ nhưng vẫn gặp đi nhầm. Các số phút dưới đây là hồi tưởng, không kèm nhật ký chuyến đi. |
-| Quy trình hiện tại (3–7 bước) | Xem bản đồ 1–2 phút → chọn hướng 1 phút → nhận ra nhầm hướng sau 0,5 phút → tìm lại đường 1–2 phút → quay lại đi đúng đường khoảng 30 phút. Các thời gian là ước lượng từ trí nhớ. |
+| Quy trình hiện tại (3–7 bước) | Xem bản đồ 1–2 phút → chọn hướng 1 phút → nhận ra nhầm hướng sau 25 phút → tìm lại đường 1–2 phút → quay lại đi đúng đường khoảng 30 phút. Các thời gian là ước lượng từ trí nhớ. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5 — quay lại đi đúng đường: khoảng 30 phút, dài nhất trong 5 bước đã kể. Đây là phần khắc phục gây tốn thời gian; cần kiểm tra nguyên nhân chọn sai hướng ở bước 2 để tìm cách phòng ngừa. |
 | Impact (nếu không giải thì sao) | Riêng phần quay lại mất thêm khoảng 30 phút/lần; với 3–4 lần đi nhầm/ngày thì tương ứng khoảng 90–120 phút/ngày theo tự thuật. Tổng 5 bước đã kể khoảng 33,5–35,5 phút; không coi đây là toàn bộ thời gian từ điểm xuất phát đến đích. |
 | Success metric (baseline → target) | Baseline tự thuật: 3–4 lần đi nhầm/ngày, riêng phần quay lại khoảng 90–120 phút/ngày. Mục tiêu đề xuất: giảm ít nhất 50% số lần nhầm/ngày và tổng phút quay lại/ngày khi số chuyến, tuyến và điều kiện tương đương. Ghi mọi chuyến trong 3 ngày trước/sau, cả chuyến không nhầm; tính thêm công sức chuẩn bị để kiểm tra tổng thời gian có thực sự giảm. Chưa có kết quả thử nghiệm. |
@@ -79,7 +79,7 @@ Quy trình nháp hiện tại:
 ```text
 [1. Xem bản đồ: 1–2 phút]
  → [2. Chọn hướng: 1 phút]
- → [3. Nhận ra nhầm hướng: 0,5 phút]
+ → [3. Nhận ra nhầm hướng: 25 phút]
  → [4. Tìm lại đường: 1–2 phút]
  → [5. Quay lại đi đúng đường: khoảng 30 phút] ← BƯỚC NGHẼN VỀ THỜI GIAN
 
