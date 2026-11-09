@@ -179,7 +179,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 - Có đổi ý.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+- Có thể
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 - Phải xác nhận đấy có đúng là problem không hay chỉ là phenomena
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**

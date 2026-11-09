@@ -38,7 +38,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
 ### HoVaTen-MSSV
-
+Dương Quang Bảo
 **Phần việc phụ trách:**
 
 -
