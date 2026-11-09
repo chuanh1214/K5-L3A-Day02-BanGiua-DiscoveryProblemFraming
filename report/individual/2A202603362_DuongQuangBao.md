@@ -84,7 +84,7 @@ Quy trình nháp hiện tại:
 | Success metric | Thời gian tổng hợp: 30–45p/ngày → ≤ 10p/ngày; độ phủ ý chính: ≥ 90% ý trong checklist ý chính do tôi lập tay từ 3 buổi cũ, và 0 ý sai; kết quả tự kiểm tra cuối tuần không thấp hơn khi tự tổng hợp |
 | Phương án không dùng AI | Template ghi chú cố định (Mục tiêu buổi / 3–5 khái niệm / Bẫy hay gặp / Việc cần làm), tự điền từ phần Mục tiêu và Tổng kết có sẵn trong slide |
 | Giả thuyết về AI | Đưa slide hoặc notebook của buổi vào, mô hình điền đúng template trên kèm số slide hoặc tên ô để đối chiếu; tôi đọc và sửa trước khi dùng. AI chỉ đáng giá nếu nhanh hơn tự điền template và không bỏ sót ý hơn |
-| Cảm nhận nhanh | LLM feature (có review) |
+| Cảm nhận nhanh | Agent |
 
 Quy trình nháp hiện tại:
 
@@ -171,19 +171,26 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+- Chung môi trường thì chung problem
+- Không phải problem nào cũng cần AI can thiệp
+- Problem có thể là những điều nhỏ nhưng khó chịu
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+- Có. Khi đó nhóm cần nhìn lại giải pháp có liên quan đến vấn đề hiện tại không? Nếu không sẽ phải rollback lại bối cảnh và xem xét rõ ràng vấn đề đó, từ đó nhận ra pain point, workflow, cost, xem xét tính khả thi. Nếu có liên quan thì sẽ từ đó reverse ngược lại để vấn đề và giải pháp gặp nhau tại 1 điểm
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+- Có đổi ý.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+- Phải xác nhận đấy có đúng là problem không hay chỉ là phenomena
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+- Chưa biết
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Problem: [Ai] đang gặp [bottleneck nào] trong [workflow nào], gây [tổn thất gì, bao nhiêu].
+Quy trình: Hiện tại họ làm qua các bước [A → B → C], trong đó bước [?] tốn nhất vì [lý do].
+Metric: Nhóm đo thành công bằng [metric chính], từ [baseline] xuống/lên [target], và đối chiếu bằng [cách đo/đáp án chuẩn].
+Boundary: Hệ thống được phép [làm gì], không được [làm gì], và [người nào] xác nhận ở bước [nào].
+Mức can thiệp AI: Trước hết thử [rule/template/cách đơn giản]; AI chỉ vào khi [điều kiện], và chỉ làm phần [cụ thể], còn phần [phần học/phán đoán] là của người.
+Quyết định: Nhóm chọn [Go / Not Yet / No-Go] vì [căn cứ], và thí nghiệm nhỏ nhất tiếp theo là [việc gì, đo trong bao lâu].
 ---
 
 ## 7. Tài liệu tham khảo
