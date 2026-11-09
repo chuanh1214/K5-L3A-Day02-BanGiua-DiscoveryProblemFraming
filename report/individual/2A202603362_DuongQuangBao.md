@@ -140,16 +140,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch Card #1 (nắm output/yêu cầu task lab) và Card #2 (tóm tắt bài học) | Card #1 được nhóm đưa vào shortlist và chọn làm bài chính |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Kiểm tra tên file sao không dùng regex/bash script mà cần AI?" (hỏi Long); "LMS trường có phân quyền, tool ngoài có vào được không?" (hỏi Hiếu) | Nhóm loại được ý tưởng kiểm tra tên file bằng AI vì nhận thấy dùng Rule là đủ; Hiếu nhận ra rủi ro về quyền truy cập LMS |
+| Nhận phản biện | Câu hỏi tôi nhận được: Ánh hỏi "Đề lab có ghi rõ output không hay mỗi bài một kiểu?", Hiếu hỏi "Nếu AI tóm tắt slide thì bạn có tự học được không?" | Tôi đồng ý rút lại Card #2 vì dễ làm giảm khả năng tự học; tập trung hoàn thiện Card #1 có căn cứ rõ ràng |
+| Gom cluster / cây OST | Cùng Ánh phân nhóm các candidate thành 3 nhóm (Bóc tách yêu cầu, Kiểm tra bài nộp, Quản lý & học tập) | Loại bỏ được các ý tưởng giải pháp đội lốt nhu cầu (như "làm chatbot", "viết script") |
+| Chọn candidate problem | Bỏ phiếu và giải thích lý do vì sao chọn bài bóc tách output từ đề lab | Đạt đồng thuận 5/5 trong nhóm chọn Candidate #1 |
+| Kiểm chứng / research | Cùng Hiếu sang phỏng vấn 1 bạn học viên ở bàn bên cạnh | Thu được snapshot thực tế về việc bạn ấy vừa nộp thiếu file đêm qua do đề dài |
+| Quy trình nhóm | Góp ý vào sơ đồ quy trình hiện tại và tương lai do Khánh vẽ | Bổ sung bước kiểm tra trích dẫn của con người (HITL) trước khi làm bài |
+| Problem Statement | Chịu trách nhiệm chính viết nháp bản v0 và hoàn thiện bản v1 | Problem Statement có đầy đủ metric đo lường và giới hạn boundary an toàn |
+| Mức can thiệp AI | Phân tích ma trận độ phức tạp x độ mơ hồ, điền bảng AI Canvas | Nhóm thống nhất chọn mức Workflow thay vì Agent |
+| Quyết định | Cùng cả nhóm rà soát 4 rủi ro và thống nhất quyết định Go | Đưa ra kế hoạch pilot thử nghiệm ngay trên đề lab Day 03 |
 
 ---
 
@@ -157,18 +157,18 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm các lăng kính về khó khăn trong học tập hàng ngày | Gợi ý thêm các góc nhìn về việc quản lý link nộp bài và thời gian làm task | AI gợi ý mấy ý tưởng quá chung chung như "trợ lý học tập thông minh" không có quy trình thật | Bỏ các ý tưởng mơ hồ, chỉ giữ lại các vấn đề bản thân gặp thật |
+| CP2 Problem Card | Đóng vai người phản biện hoài nghi để chỉ ra điểm yếu trong Card #2 | Chỉ ra điểm yếu chí mạng: giao AI tóm tắt bài giảng thì học viên sẽ bị thụ động và không đo được chất lượng | AI khuyên nên dựng luôn Agent tự làm bài tập | Giữ nguyên lập trường: AI chỉ hỗ trợ định dạng/trích xuất, con người phải học và làm bài |
+| CP4 Research | Tìm kiếm các công cụ hoặc repo mã nguồn mở đã làm bài toán tương tự | Chỉ ra các mẫu GitHub Actions và n8n workflow | Đưa ra một số link bị lỗi 404 hoặc tài liệu chung chung | Tự mở link kiểm tra, chọn lọc các pattern thực tế như Markdown parser |
+| CP5 Quy trình | Chuyển các bước mô tả bằng lời sang dạng sơ đồ text/Mermaid | Dựng khung sơ đồ nhanh, trực quan | AI tự động gộp bước "đọc đề" và "lọc output" làm mất đi nút thắt bottleneck | Tách riêng bước lọc output thủ công để làm rõ điểm nghẽn 20 phút |
+| CP5–6 Problem Statement | Rà soát câu chữ trong Problem Statement xem có bị lẫn giải pháp không | Phát hiện ra từ khóa "công cụ trích xuất" bị lẫn vào phần Problem | AI đề xuất metric rất khó đo như "tăng 30% hiệu quả học tập" | Đổi lại thành metric thực tế: thời gian lọc yêu cầu (20p xuống 5p) và số lần nộp sót file (về 0) |
+| CP6 Mức can thiệp / quyết định | So sánh giữa Workflow và Autonomous Agent | Phân tích rõ rủi ro bảo mật và độ trễ nếu dùng Agent | Khuyên nên làm Agent để "tự động hóa hoàn toàn" | Kiên quyết chọn Workflow vì học viên cần kiểm soát 100% file nộp bài |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+Trích xuất từ trải nghiệm thực tế trong buổi làm việc nhóm:
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 - Chung môi trường thì chung problem
@@ -182,6 +182,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 - Có thể
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 - Phải xác nhận đấy có đúng là problem không hay chỉ là phenomena
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 - Chưa biết
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
