@@ -2,6 +2,8 @@
 
 > Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
+> Cập nhật theo thông tin Nguyễn Tuấn Hiếu cung cấp ngày 09/11/2026. Chỉ ghi hai thành viên đã có nguồn; chưa phải danh sách nhóm đầy đủ. Các tài liệu mới có AI hỗ trợ soạn, chưa thay cho phỏng vấn, phép thử hoặc xác nhận phân công của nhóm.
+
 ## Thông tin nhóm
 
 - Tên nhóm: Bàn giữa

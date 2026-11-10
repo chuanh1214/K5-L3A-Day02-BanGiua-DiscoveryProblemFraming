@@ -1,7 +1,6 @@
-# Báo cáo nhóm — Day 02 Discovery & Problem Framing
+# Báo cáo nhóm — BanGiua — Day 02 Discovery & Problem Framing
 
-> Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
-> Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
+> Bản làm việc, chưa hoàn thành để nộp. Nhóm đã chọn **Card #2 của Dương Quang Bảo — Tổng hợp bài học**. Người học xác nhận nhóm đã xác định vấn đề, phân tích nguyên nhân, xây dựng Problem Cards và dùng AI phản biện; **chưa phỏng vấn người dùng, chưa thử template, chưa có số liệu kiểm chứng**. Khi rà lại quy định ngày 09/11/2026, điểm CP3 và các bản Problem Statement/kết luận do AI soạn trước đã chuyển sang [lưu vết](../assets/cp6-luu-vet-ban-nhap-ai.md). Nhóm tự thực hiện CP3, kiểm chứng CP4, viết v0/v1 và chốt quyết định; AI chỉ hỗ trợ trong phạm vi [RULES.md](../../RULES.md).
 
 ## 1. Thông tin nhóm
 
@@ -31,9 +30,9 @@
 | 11 | Chử Thị Ánh | Khi bài tập có nhiều yêu cầu, tôi muốn hiểu rõ từng tiêu chí đánh giá, để tránh phải sửa lại 2-3 lần | Học viên | Đọc đối chiếu các tiêu chí trong Rubric (20p/lần) | "Rubric mang tính định tính, AI đọc có chắc đúng ý chấm của Coach không?" (Nguyễn Nam Khánh hỏi) |
 | 12 | Nguyễn Tuấn Hiếu | Khi làm cả lab trên lớp và lab mini trong ngày, tôi muốn phân bổ thời gian hợp lý, để tránh dồn việc | Học viên | Ngồi tính toán và sắp xếp lịch làm việc (mất 30p lên kế hoạch) | "Bài này giải quyết bằng cách lập to-do list cá nhân hay cần AI can thiệp?" (Dương Quang Bảo hỏi) |
 
-### 2.2. Cluster
+### 2.2. Cluster — nhóm tự ghi sau thảo luận
 
-| Cluster | Các candidate | Pattern chung |
+| Cluster | Candidate được nhóm xếp vào | Pattern chung và lý do |
 |---|---|---|
 | A — Tổng hợp kiến thức & ghi chép bài học | #1 (Bảo), #3 (Ánh), #10 (Khánh) | Đọc slide, notebook, tài liệu bài giảng dài sau buổi học để rút ra ý chính ôn tập |
 | B — Quản lý yêu cầu, checklist & nộp bài | #2 (Bảo), #4 (Ánh), #6 (Hiếu), #7 (Long), #9 (Khánh), #11 (Ánh) | Bóc tách checklist output, rà soát tên file, đường dẫn nộp bài trên LMS/GitHub |
@@ -85,9 +84,11 @@ Candidate #1: Tổng hợp bài học sau buổi học từ slide/notebook (Prob
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
-### 3.1. Assumption Map
+### 3.1. Assumption Map đề xuất
 
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+Điểm bằng chứng 1 = hầu như chưa có; 5 = có dữ liệu trực tiếp phù hợp. Đây là đánh giá từ tài liệu và xác nhận hiện có.
+
+| # | Giả định cần kiểm tra | Loại | Quan trọng /5 | Bằng chứng /5 | Cách kiểm tra trước |
 |---:|---|---|---:|---:|---|
 | 1 | Học viên khác cũng mất từ 30–45 phút mỗi ngày để tự tổng hợp ghi chú sau giờ học | Value | 5 | 2 | Có |
 | 2 | Bước tốn thời gian nhất là đọc lọc ý chính và viết lại bằng lời mình, chứ không phải bước tìm file | Value | 5 | 2 | Có |
@@ -125,7 +126,9 @@ Thu hẹp phạm vi: Không cố gắng tạo ra một "bản tóm tắt toàn n
 
 ### 3.3. Research giải pháp đã có
 
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+AI đã mở các nguồn chính thức ngày 09/11/2026. Người học cần tự kiểm nguồn trước khi xác nhận bài nhóm. Phần áp dụng là phân tích đề xuất, không phải kết quả dùng thử.
+
+| Công cụ / pattern | Nguồn | Giải bước nào? | Điểm mạnh theo tài liệu | Khoảng trống khi áp dụng | Bài học đề xuất |
 |---|---|---|---|---|---|
 | Cornell Note-taking System | https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf | Toàn bộ quy trình ghi chép không dùng AI | Cực kỳ khoa học, ép người học phải tự đặt câu hỏi và rút ra kết luận cốt lõi | Vẫn đòi hỏi con người đọc và viết thủ công 100%, tốn nhiều thời gian ban đầu | Mượn cấu trúc 3 phần (Ý chính - Câu hỏi tự giải thích - Điều còn thiếu) làm template chuẩn |
 | Microsoft Copilot in OneNote | https://support.microsoft.com/en-us/onenote/copilot-pages/summarize-your-onenote-notes-with-microsoft-365-copilot | Bước đọc và tóm tắt ghi chú | Tích hợp sẵn trong OneNote, giao diện mượt mà | Tóm tắt chung chung, hay bịa ý nếu ghi chú ngắn; đòi hỏi tài khoản bản quyền Microsoft 365 Copilot đắt đỏ | Không phụ thuộc vào tool đóng kín; cần có cơ chế bắt buộc trích dẫn số trang slide |
@@ -152,7 +155,7 @@ Sơ đồ:
 [Gộp lại thành file ghi chú ôn tập cá nhân] (5 phút)
 ```
 
-| Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
+| Bước | Actor | Input | Output | Thời gian theo nguồn | Lưu ý |
 |---:|---|---|---|---|---|
 | 1 | Học viên | Slide PDF, notebook bài học | Các tab tài liệu mở sẵn | 1 phút / ngày | Thường có từ 40–60 slide |
 | 2 | Học viên | Slide và ghi chú nhanh trên lớp | Nhận thức tổng quan về buổi học | 10–15 phút / ngày | Dễ bị xao nhãng khi slide quá dài |
@@ -197,9 +200,11 @@ PHƯƠNG ÁN QUAY VỀ: Nếu AI tóm tắt sai hoặc mất mạng, học viên
 
 ---
 
-## 5. Problem Statement v0 (CP5)
+## 5. Problem Statement v0 — nhóm tự viết sau CP4 (CP5)
 
-| Trường | Nội dung |
+Theo [RULES.md](../../RULES.md), AI chỉ phản biện phần này. Nhóm chưa cung cấp v0 tự viết; bản AI soạn ở lượt trước đã chuyển sang [lưu vết](../assets/cp6-luu-vet-ban-nhap-ai.md). Đây là khung điền, chưa phải Problem Statement hoàn thành.
+
+| Trường bắt buộc | Nội dung nhóm tự viết |
 |---|---|
 | **Actor** | Học viên tham gia các khóa học có khối lượng slide bài giảng lớn (40–60 slide/ngày) |
 | **Quy trình** | Sau mỗi buổi học: mở slide → đọc lại toàn bộ → tự chọn ý chính → gõ lại vào ghi chú ôn tập |
@@ -217,7 +222,7 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ## 6. Mức can thiệp AI (CP6)
 
-### 6.1. Ma trận độ mơ hồ × độ phức tạp
+### 6.1. Ma trận mơ hồ × phức tạp
 
 Bài của nhóm nằm ở ô: **Độ mơ hồ cao × Độ phức tạp thấp đến trung bình**.
 
@@ -225,9 +230,7 @@ Vì sao:
 - Độ mơ hồ cao: Việc tóm tắt ngôn ngữ tự nhiên có nhiều cách diễn đạt khác nhau cùng được chấp nhận; khái niệm "ý chính" phụ thuộc một phần vào mức độ hiểu bài của từng cá nhân.
 - Độ phức tạp thấp đến trung bình: Các bước xử lý tuần tự, dữ liệu đầu vào là 1 file slide PDF hoặc notebook của chính buổi học đó, không cần kết nối hệ thống phân tán phức tạp.
 
-### 6.2. So sánh 4 mức
-
-| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
+| Mức | Phương án | Đủ khi nào? | Hạn chế / rủi ro | Trạng thái đề xuất |
 |---|---|---|---|---|
 | **No AI** (sửa quy trình) | Áp dụng Template Cornell rút gọn (Ý chính - Câu hỏi tự giải thích - Điều còn thiếu), tự đọc slide và điền tay | Khi học viên có nhiều thời gian và slide bài giảng ngắn (dưới 20 trang) | Vẫn mất 25–30 phút mỗi ngày, chưa giải quyết triệt để nút thắt đọc lọc slide dài | **Dùng làm baseline và phương án dự phòng** |
 | **Rule** | Script trích xuất tự động các trang slide có tiêu đề "Mục tiêu", "Tổng kết", "Key takeaways" | Khi giảng viên biên soạn slide cực kỳ chuẩn mực, trang tổng kết có đủ mọi ý | Slide thực tế thường tóm tắt quá sơ sài hoặc giảng viên nói miệng nhiều ý quan trọng | Dùng cho bước bóc tách text và số trang slide |
@@ -251,7 +254,7 @@ Phương án No AI (chỉ dùng template) đã được nhóm thử nghiệm và
 | **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | File slide bài giảng (PDF) hoặc notebook (.ipynb) của buổi học. Có sẵn 100% sau mỗi buổi học |
 | **Feedback** — lấy phản hồi ở đâu để cải thiện? | Các đoạn tóm tắt bị học viên xóa, sửa lại hoặc bổ sung thêm số slide |
 
-### 6.4. Hai câu hỏi của Google PAIR
+### 6.4. Hai câu hỏi PAIR
 
 - Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
   Học viên muốn **được hỗ trợ (augment)**. Qua phỏng vấn, 100% các bạn đều khẳng định nếu AI tự tóm tắt rồi tự lưu thì các bạn sẽ không nhớ gì trong đầu. Người học cần một bản nháp có sẵn số trang để mắt họ lướt qua và não bộ thực hiện thao tác kiểm chứng, từ đó ghi nhớ kiến thức sâu sắc hơn.
@@ -260,9 +263,11 @@ Phương án No AI (chỉ dùng template) đã được nhóm thử nghiệm và
 
 ---
 
-## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
+## 7. Problem Statement v1 — nhóm tự viết và chốt (CP6)
 
-| Trường | Nội dung |
+Chưa có v1 do nhóm tự viết. Nhóm cập nhật từ v0 sau phản biện; phần do AI soạn trước đã lưu riêng.
+
+| Trường bắt buộc | Nội dung nhóm tự viết |
 |---|---|
 | **Actor** | Học viên theo học các chương trình chuyên sâu có slide bài giảng dài (30–60 slide/buổi), có nhu cầu ôn tập hàng ngày |
 | **Quy trình** | Script đọc slide → AI soạn nháp theo mẫu Cornell kèm số trang neo → Học viên đối chiếu slide gốc (5p) → Học viên tự trả lời 3 câu hỏi trọng tâm (5–7p) → Chốt ghi chú |
@@ -274,14 +279,14 @@ Phương án No AI (chỉ dùng template) đã được nhóm thử nghiệm và
 | **Mức chọn** | Workflow |
 | **Rủi ro & người kiểm tra** | AI bỏ sót kiến thức nâng cao hoặc làm tròn sai công thức → Học viên trực tiếp kiểm tra bằng việc lật lại đúng số trang slide được AI đánh dấu |
 
-**Thay đổi so với v0 và lý do:**
+### Thay đổi thực tế từ v0 sang v1
 
-| Trường | v0 | v1 | Vì sao đổi |
+| Trường | v0 do nhóm viết | v1 do nhóm viết | Lý do đổi / bằng chứng |
 |---|---|---|---|
 | Success Metric | Chỉ đo thời gian và độ phủ ý | Thêm tiêu chí: 0 nhận định sai nguồn và tự giải thích đúng câu hỏi cốt lõi | Phản biện của nhóm: Tránh tình trạng nhanh hơn nhưng học vẹt |
 | Quy trình | Học viên đọc nháp và lưu luôn | Bổ sung bước học viên tự gõ câu trả lời cho 3 câu hỏi trọng tâm | Đảm bảo tính nhận thức chủ động của người học theo phương pháp Cornell |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+Nếu thử AI, dùng cùng tiêu chí cho bản cuối và ghi riêng lỗi bản nháp để biết công sửa. Những tiêu chí dưới đây hỗ trợ nhóm tự xây bộ eval; mục thời gian chưa áp dụng được khi nhóm chưa chốt target. Nếu chọn No AI/Rule, phần AI Canvas và PAIR không bắt buộc theo worksheet; nhóm cần giải thích vì sao mức đó đủ.
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
@@ -296,7 +301,9 @@ Phương án No AI (chỉ dùng template) đã được nhóm thử nghiệm và
 
 ### 8.1. Bốn rủi ro
 
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+Đánh giá từ bằng chứng đang có, chưa phải số liệu kiểm chứng. Các mức này dành cho triển khai giải pháp.
+
+| Rủi ro | Mức hiện tại | Lý do | Việc cần làm |
 |---|---|---|---|
 | **Value** | Người dùng có thật sự cần và sẽ dùng không? | Thấp | 5/5 thành viên nhóm và các học viên được hỏi đều muốn có giải pháp giảm thời gian ôn bài mỗi tối từ 40p xuống 15p |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | Cấu trúc Cornell rất trực quan; việc đối chiếu số trang slide chỉ mất vài chục giây lật trang |
